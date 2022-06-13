@@ -1,7 +1,9 @@
 # DESCRIPCIÓN: VERIFICADOR-DE-HERRAMIENTAS-PARA-ROBOTS-AICO-Y-ST-UBLI-BASADO-EN-ARDUINO
 ## Mediante este programa se diseña una interfaz gráfica usando una patalla LCD y botones de navegación. La estructura de este programa facilita la incorporación de nuevas pantallas y subpantallas. Aunque tiene ciertos limites como un máximo de 5 pantallas principales.
 * Se emplean solamente dos librerias, una para realizar la comunicacion I2C con el microcontrolador: https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c
-* y una libreria que facilita la creacion y configuración del menu LCD: https://github.com/VaSe7u/LiquidMenu 
+* y una libreria que facilita la creacion y configuración del menu LCD: 
+  * Para la version 1.5.1: https://github.com/VaSe7u/LiquidMenu/releases/tag/v1.5.1 (La que usmos en este programa)
+  * Para la version 1.6 https://github.com/VaSe7u/LiquidMenu (Actualizacion de la anterior, poner a True I2C)
   * Existe otra librería propia de arduino para crear menús y submenús por pantalla LCD, pero se emplea esta libreria porque aunque esta mas limitada es mas fácil de configurar.
 # IMPORTANTE:
 * Tener en cuenta que el tamaño del sketch supera la memoria de un Arduino UNO.

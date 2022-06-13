@@ -11,3 +11,4 @@
 * También se contempla ampliación para comunicación PROFIBUS, manómetros y elementos que mejoren la configuracion y el uso del verificador.
 * En el directorio src de LiquidMenu comentar las lineas 33 34 y 35 del archivo y descomentar las lineas 43 44 y 45, porque estamos usando la interfaz I2C.
 * Podrian observarse parpadeos que pueden deverse a interferencias y mala conexión, a la actualización o refresco de pantalla (cambiar delay) o al mal estado de la propia pantalla.
+* Si lcd.begin() da error, comentarlo y deberia funcionar correctamente porque no es necesario.

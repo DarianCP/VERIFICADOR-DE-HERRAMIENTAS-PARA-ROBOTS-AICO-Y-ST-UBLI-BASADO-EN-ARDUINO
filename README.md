@@ -3,7 +3,7 @@
 * Se emplean solamente dos librerias, una para realizar la comunicacion I2C con el microcontrolador: https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c
 * y una librería que facilita la creación y configuración del menu LCD:
   * Para la versión 1.5.1: https://github.com/VaSe7u/LiquidMenu/releases/tag/v1.5.1 (La que usamos en este programa)
-  * Para la versión 1.6 https://github.com/VaSe7u/LiquidMenu (Actualizacion de la anterior, es necasario modificarla poniendo a True I2C)
+  * Para la versión 1.6 https://github.com/VaSe7u/LiquidMenu (Actualización de la anterior, es necasario modificarla poniendo a True I2C)
   * Existe otra librería propia de arduino para crear menús y submenús por pantalla LCD, pero se emplea esta librería porque aunque esta mas limitada es mas fácil de configurar.
 # IMPORTANTE:
 * Tener en cuenta que el tamaño del sketch supera la memoria de un Arduino UNO. Usar Arduino MEGA con 256kB de memoria FLASH

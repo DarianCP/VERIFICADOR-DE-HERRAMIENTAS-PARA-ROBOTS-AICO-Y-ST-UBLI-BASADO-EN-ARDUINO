@@ -1,4 +1,4 @@
-# DESCRIPCIÓN: VERIFICADOR-DE-HERRAMIENTAS-PARA-ROBOTS-AICO-Y-ST-UBLI-BASADO-EN-ARDUINO
+# DESCRIPCIÓN: VERIFICADOR-DE-HERRAMIENTAS-PARA-ROBOTS-AICO-Y-STAUBLI-BASADO-EN-ARDUINO
 ## Mediante este programa se diseña una interfaz gráfica usando una patalla LCD y botones de navegación. La estructura de este programa facilita la incorporación de nuevas pantallas y subpantallas. Aunque tiene ciertos limites como un máximo de 5 pantallas principales.
 * Se emplean solamente dos librerias, una para realizar la comunicacion I2C con el microcontrolador: https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c
 * y una libreria que facilita la creacion y configuración del menu LCD: 
